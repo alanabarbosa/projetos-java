@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @author Alana Barbosa - Desenvolvedora Front End
  * @since 07/01/2024 
  */
-public class EsrtuturaRepeticao06 {
+public class EstruturaRepeticao06 {
     public static void main(String[] args) {
         System.out.println("Digite uma senha: ");
         Scanner scanner = new Scanner(System.in);

@@ -29,7 +29,7 @@ public class EstruturaRepeticao09 {
             if (tentarNovamente)
                 tentativas ++;
             else
-                System.out.println("Contato realizado com sucesdo!");
+                System.out.println("Contato realizado com sucesso!");
             
         } while(tentarNovamente && tentativas < 3);
         
