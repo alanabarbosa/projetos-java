@@ -16,6 +16,12 @@ public class OperadoresUnarios {
          number --;
          System.out.println("Decremento: " + number);
          
+         ++ number;
+         System.out.println("Icremento: " + number);
+         
+         -- number;
+         System.out.println("Decremento: " + number);         
+         
          boolean verdadeiro = true;
          
          System.out.println("Inverteu " + !verdadeiro);

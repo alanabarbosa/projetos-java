@@ -9,14 +9,19 @@ package operadores;
 public class OperadoresLogicos {
     public static void main(String args[]) {
         boolean condicao1=true;
-        boolean condicao2=false;
+        boolean condicao2=false;        
+
+        System.out.println(condicao1 && condicao2);
+        System.out.println("O operador AND precisa que os dois valores sejam verdadeiros\n");
         
-        if (condicao1 && condicao2) 
-               System.out.println("False");
-               System.out.println("Os dois valores precisam ser verdadeiros!!!");
+        System.out.println(condicao1 || condicao2);
+        System.out.println("O operador OU precisa que pelo menos um seja verdadeiro\n");
+               
+        System.out.println(condicao1 ^ condicao2);
+        System.out.println("O operador XOR precisa que os valores sejam diferentes\n");
         
-        if (condicao1 || condicao2)
-               System.out.println("Verdadeiro");
-               System.out.println("Um dos valores precisa ser verdadeiro!!!");
+        System.out.println(!condicao1);
+        System.out.println("O operador NOT nega o valor");
+        
     }
 }

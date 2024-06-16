@@ -11,6 +11,12 @@ public class OperadoresRelacionais {
         int number1 = 40;
         int number2 = 55;
         
+        if (number1 == number2) {
+            System.out.println(number1 + " é o mesmo que " + number2);
+        } else {
+            System.out.println(number1 + " não é o mesmo que " + number2);
+        }
+        
         if (number1 > number2) {
             System.out.println(number1 + " é maior que " + number2);
         } else {

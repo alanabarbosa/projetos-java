@@ -20,6 +20,5 @@ public class OperadoresAritimeticos {
         System.out.println("10 / 5 = " + divisao);
         System.out.println("10 % 5 = " + modulo);
         
-        
     }
 }
