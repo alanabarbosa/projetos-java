@@ -1,4 +1,4 @@
-package metodos;
+package metodo;
 /**
  * Metodos sem parametro e sem retorno
  * 
